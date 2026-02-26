@@ -4,13 +4,18 @@
   "description": "Projeto do curso.dev para criação de uma versão do site do tabnews.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^16.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.2"
   }
 }
